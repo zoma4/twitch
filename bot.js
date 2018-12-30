@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 
 
-client.login("your token");
+client.login("NTEyNjI1OTgyNzUxMTEzMjE2.Dv2pAA.M-goF6BO9W_MMrDMtBLSMoAZs8A");
 
 
 
@@ -24,8 +24,8 @@ client.user.setStatus("dnd");
 
 
 
-const devs = ["your id"];
-const adminprefix = ["prefix"];
+const devs = ["512625982751113216"];
+const adminprefix = ["?"];
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
